@@ -41,10 +41,11 @@ class HomeScreen extends React.Component {
   
   render() {
       return(
-      <TouchableOpacity>
-      <NetworkCheck/>  
+
+       <View>
       <ScrollView>
-      
+      <NetworkCheck/>
+  
    <ImageLink 
    navigation={this.props.navigation} 
    imageSource="https://upload.wikimedia.org/wikipedia/commons/2/28/Aaj_tak_logo.png"
@@ -70,7 +71,7 @@ class HomeScreen extends React.Component {
  
     </ScrollView>
     <AdBottom/>
-    </TouchableOpacity>
+    </View>
       
       );
   }

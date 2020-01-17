@@ -9,14 +9,14 @@ export default class AdBottom extends React.Component {
 
     render() {
     return (
-        // <View  style={{  position:'absolute', bottom:0 }}>
+       <View  style={{  position:'absolute', bottom:0,zIndex:1000 }}>
        <AdMobBanner
        bannerSize="smartBannerPortrait"
        adUnitID="ca-app-pub-3940256099942544/6300978111"  //this is sample test id ,change this
        testDeviceId="EMULATOR"
        onDidFailToReceiveAdWithError={ (e) => this.bannerError(e)}
      />
-      //  </View>
+     </View>
     );
   }
 }
