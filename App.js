@@ -68,8 +68,11 @@ class HomeScreen extends React.Component {
   //  link="https://www.youtube.com/watch?v=o7qhqJ1ck8g"
   link="https://www.youtube.com/embed/live_stream?channel=UCttspZesZIDEwwpVIgoZtWQ"
    />
- 
+  
+  <View style={{height: 60}} />
+    
     </ScrollView>
+    
     <AdBottom/>
     </View>
       
